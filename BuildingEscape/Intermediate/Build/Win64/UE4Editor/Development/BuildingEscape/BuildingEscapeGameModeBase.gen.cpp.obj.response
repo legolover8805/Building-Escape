@@ -23,9 +23,9 @@
 /wd4838
 /w44668
 /I "D:\Program Files\Epic Games\UE_4.19\Engine\Source"
-/I D:\Repos\BuildingEscape\Source
-/I D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape
-/I D:\Repos\BuildingEscape\Source\BuildingEscape
+/I D:\Repos\Building-Escape\BuildingEscape\Source
+/I D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape
+/I D:\Repos\Building-Escape\BuildingEscape\Source\BuildingEscape
 /I "D:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public"
 /I "D:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "D:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public\Async"
@@ -363,9 +363,9 @@
 /FI"D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape\BuildingEscapeGameModeBase.gen.cpp"
-/FI"D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Definitions.BuildingEscape.h"
-/Fo"D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscapeGameModeBase.gen.cpp.obj"
+"D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Inc\BuildingEscape\BuildingEscapeGameModeBase.gen.cpp"
+/FI"D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\Definitions.BuildingEscape.h"
+/Fo"D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscapeGameModeBase.gen.cpp.obj"
 /TP
 /GR-
 /W4
