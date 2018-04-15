@@ -1,4 +1,4 @@
-﻿Log file open, 04/15/18 13:34:34
+﻿Log file open, 04/15/18 15:57:04
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: BuildingEscape
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-177245713) SRandInit(-177245713).
+LogInit: Display: RandInit(1625324063) SRandInit(1625324063).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 3989454, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.397941
+LogStats: Stats thread started at 0.410825
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -84,114 +84,8 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.134s to configure plugins.
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
-LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
-LogInit: Warning: Incompatible or missing module: UE4Editor-BuildingEscape.dll
-Running D:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe BuildingEscape Development Win64 -project="D:/Repos/BuildingEscape/BuildingEscape.uproject" -editorrecompile -progress -NoHotReloadFromIDE
-Creating makefile for BuildingEscape (no existing makefile)
-Performing full C++ include scan (no include cache file)
-@progress push 5%
-Parsing headers for BuildingEscapeEditor
-  Running UnrealHeaderTool "D:\Repos\BuildingEscape\BuildingEscape.uproject" "D:\Repos\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-Reflection code generated for BuildingEscapeEditor in 10.0607363 seconds
-@progress pop
-Performing 9 actions (9 in parallel)
-[2/9] Resource ModuleVersionResource.rc.inl
-[3/9] Resource PCLaunch.rc
-SharedPCH.Engine.cpp
-BuildingEscapeGameModeBase.cpp
-BuildingEscape.init.gen.cpp
-BuildingEscape.cpp
-BuildingEscapeGameModeBase.gen.cpp
-[8/9] Link UE4Editor-BuildingEscape.dll
-[9/9] Link UE4Editor-BuildingEscape.lib
-   Creating library D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib and object D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.exp
-   Creating library D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.lib and object D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.exp
-Total build time: 48.43 seconds (Local executor: 31.72 seconds)
-LogModuleManager: Display: Found up-to-date module file ../../../../../../Repos/BuildingEscape/Binaries/Win64/UE4Editor-BuildingEscape.dll (API version 3944462).
+LogStreaming: Display: Took  0.141s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../Repos/Building-Escape/BuildingEscape/Binaries/Win64/UE4Editor-BuildingEscape.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
@@ -323,1069 +217,295 @@ LogInit: Compiled (64-bit): Apr  6 2018 12:26:04
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.19
-LogInit: Command Line:  
+LogInit: Command Line: -EpicPortal 
 LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.000s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.15-19.35.29:312][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.15-19.35.29:312][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.15-19.35.29:325][  0]LogInit: Computer: HMD-PC
-[2018.04.15-19.35.29:325][  0]LogInit: User: Owner
-[2018.04.15-19.35.29:325][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.04.15-19.35.29:325][  0]LogInit: High frequency timer resolution =3.224480 MHz
-[2018.04.15-19.35.29:325][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.04.15-19.35.29:325][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.15-19.35.29:325][  0]LogMemory: Process Physical Memory: 278.95 MB used, 278.95 MB peak
-[2018.04.15-19.35.29:325][  0]LogMemory: Process Virtual Memory: 272.13 MB used, 272.13 MB peak
-[2018.04.15-19.35.29:325][  0]LogMemory: Physical Memory: 7161.14 MB used,  9162.68 MB free, 16323.81 MB total
-[2018.04.15-19.35.29:326][  0]LogMemory: Virtual Memory: 758.18 MB used,  9162.68 MB free, 134217728.00 MB total
-[2018.04.15-19.35.29:347][  0]LogInit: Using OS detected language (en-US).
-[2018.04.15-19.35.29:347][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.15-19.35.29:352][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.15-19.35.29:794][  0]LogStreaming: Display: Took  0.447s to EndInitTextLocalization.
-[2018.04.15-19.35.29:795][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.15-19.35.29:827][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.04.15-19.35.29:827][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.04.15-19.35.30:154][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.15-19.35.30:213][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 680' (Feature Level 11_0)
-[2018.04.15-19.35.30:213][  0]LogD3D11RHI:       4063/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.15-19.35.30:261][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 680' (Feature Level 11_0)
-[2018.04.15-19.35.30:261][  0]LogD3D11RHI:       4063/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.15-19.35.30:263][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.15-19.35.30:263][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.15-19.35.30:263][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.15-19.35.30:270][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.15-19.35.30:271][  0]LogD3D11RHI:     GPU DeviceId: 0x1180 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.15-19.35.30:271][  0]LogWindows: EnumDisplayDevices:
-[2018.04.15-19.35.30:271][  0]LogWindows:    0. 'NVIDIA GeForce GTX 680' (P:1 D:1)
-[2018.04.15-19.35.30:271][  0]LogWindows:    1. 'NVIDIA GeForce GTX 680' (P:0 D:0)
-[2018.04.15-19.35.30:271][  0]LogWindows:    2. 'NVIDIA GeForce GTX 680' (P:0 D:0)
-[2018.04.15-19.35.30:271][  0]LogWindows:    3. 'NVIDIA GeForce GTX 680' (P:0 D:0)
-[2018.04.15-19.35.30:271][  0]LogWindows:    4. 'NVIDIA GeForce GTX 680' (P:0 D:1)
-[2018.04.15-19.35.30:271][  0]LogWindows:    5. 'NVIDIA GeForce GTX 680' (P:0 D:0)
-[2018.04.15-19.35.30:272][  0]LogWindows:    6. 'NVIDIA GeForce GTX 680' (P:0 D:0)
-[2018.04.15-19.35.30:272][  0]LogWindows:    7. 'NVIDIA GeForce GTX 680' (P:0 D:0)
-[2018.04.15-19.35.30:272][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.15-19.35.30:272][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 680
-[2018.04.15-19.35.30:272][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.15-19.35.30:272][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.15-19.35.30:272][  0]LogRHI: Texture pool is 2844 MB (70% of 4063 MB)
-[2018.04.15-19.35.30:307][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
-[2018.04.15-19.35.30:307][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
-[2018.04.15-19.35.30:307][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.15-19.35.30:321][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.04.15-19.35.30:369][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../../../Repos/BuildingEscape/Intermediate/Shaders/WorkingDirectory/14332/).
-[2018.04.15-19.35.30:369][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/EFEC361949F8CCD990311A9D6064C8B9/'.
-[2018.04.15-19.35.30:616][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.15-19.35.30:631][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.15-19.35.30:645][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.15-19.35.30:659][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.15-19.35.30:674][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.15-19.35.30:688][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.15-19.35.30:703][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.15-19.35.30:717][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.15-19.35.30:724][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.15-19.35.30:737][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.15-19.35.30:750][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.15-19.35.30:763][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.15-19.35.30:776][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.04.15-19.35.30:788][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.15-19.35.30:801][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.15-19.35.30:828][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.15-19.35.30:828][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.15-19.35.30:841][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.15-19.35.30:843][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.15-19.35.30:881][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.15-19.35.30:894][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.15-19.35.30:906][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.15-19.35.30:919][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.15-19.35.30:933][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.15-19.35.30:946][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.15-19.35.30:946][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.15-19.35.31:085][  0]LogXGEController: Cleaning working directory: C:/Users/Owner/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.04.15-19.35.31:085][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.04.15-19.35.31:085][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.04.15-19.35.31:085][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.15-19.35.31:901][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.15-19.35.31:981][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/Owner/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.15-19.35.31:981][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.04.15-19.35.31:981][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Repos/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.15-19.35.31:981][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.15-19.35.31:981][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Repos/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.15-19.35.31:981][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.15-19.35.31:999][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.15-19.35.32:011][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.15-19.35.32:024][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.15-19.35.32:025][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.15-19.35.32:026][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.15-19.35.32:026][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.15-19.35.32:189][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
-[2018.04.15-19.35.32:599][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.15-19.35.32:778][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.15-19.35.32:781][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.15-19.35.32:781][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.15-19.35.32:781][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.15-19.35.32:781][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.15-19.35.32:781][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.15-19.35.32:823][  0]LogNetVersion: BuildingEscape , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4285820645)
-[2018.04.15-19.35.33:370][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.150765 seconds
-[2018.04.15-19.35.33:375][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.04.15-19.35.33:375][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.04.15-19.35.33:375][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.15-19.35.35:314][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.15-19.35.35:368][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.15-19.35.35:880][  0]SourceControl: Source control is disabled
-[2018.04.15-19.35.35:881][  0]SourceControl: Source control is disabled
-[2018.04.15-19.35.35:907][  0]SourceControl: Source control is disabled
-[2018.04.15-19.35.35:934][  0]SourceControl: Source control is disabled
-[2018.04.15-19.35.36:607][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.15-19.35.36:883][  0]LogOcInput: OculusInput pre-init called
-[2018.04.15-19.35.37:020][  0]LogEngine: Initializing Engine...
-[2018.04.15-19.35.42:211][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2018.04.15-19.35.42:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.15-19.35.42:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.15-19.35.42:453][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.15-19.35.42:491][  0]LogInit: XAudio2 using 'SONY TV-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.15-19.35.42:518][  0]LogInit: FAudioDevice initialized.
-[2018.04.15-19.35.42:608][  0]LogDerivedDataCache: Saved boot cache 0.09s 74MB C:/Users/Owner/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.04.15-19.35.42:624][  0]LogInit: Texture streaming: Enabled
-[2018.04.15-19.35.42:640][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.15-19.35.42:653][  0]LogInit: Transaction tracking system initialized
-[2018.04.15-19.35.42:677][  0]BlueprintLog: New page: Editor Load
-[2018.04.15-19.35.42:750][  0]LocalizationService: Localization service is disabled
-[2018.04.15-19.35.42:892][  0]LogConsoleResponse: Display: 
-[2018.04.15-19.35.43:041][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.15-19.35.43:042][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.15-19.35.43:042][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.15-19.35.43:042][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.15-19.35.43:042][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.15-19.35.43:306][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/BuildingEscape/Content/' took 0.01s
-[2018.04.15-19.35.43:564][  0]SourceControl: Source control is disabled
-[2018.04.15-19.35.43:566][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 D:/Program Files/Epic Games/UE_4.19/FeaturePacks/StarterContent.upack)
-[2018.04.15-19.35.43:574][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2018.04.15-19.35.43:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2018.04.15-19.35.43:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2018.04.15-19.35.43:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2018.04.15-19.35.43:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2018.04.15-19.35.43:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2018.04.15-19.35.43:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2018.04.15-19.35.43:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2018.04.15-19.35.43:611][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2018.04.15-19.35.43:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2018.04.15-19.35.43:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2018.04.15-19.35.43:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2018.04.15-19.35.43:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Collapse01.uasset"
-[2018.04.15-19.35.43:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Collapse02.uasset"
-[2018.04.15-19.35.43:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2018.04.15-19.35.43:643][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Explosion01.uasset"
-[2018.04.15-19.35.43:648][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Explosion02.uasset"
-[2018.04.15-19.35.43:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2018.04.15-19.35.43:656][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Fire01.uasset"
-[2018.04.15-19.35.43:660][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2018.04.15-19.35.43:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2018.04.15-19.35.43:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2018.04.15-19.35.43:674][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Light01.uasset"
-[2018.04.15-19.35.43:678][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2018.04.15-19.35.43:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Light02.uasset"
-[2018.04.15-19.35.43:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2018.04.15-19.35.43:692][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Smoke01.uasset"
-[2018.04.15-19.35.43:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2018.04.15-19.35.43:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2018.04.15-19.35.43:708][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2018.04.15-19.35.43:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2018.04.15-19.35.43:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2018.04.15-19.35.43:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2018.04.15-19.35.43:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2018.04.15-19.35.43:742][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Steam01.uasset"
-[2018.04.15-19.35.43:746][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2018.04.15-19.35.43:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2018.04.15-19.35.43:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2018.04.15-19.35.43:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2018.04.15-19.35.43:765][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2018.04.15-19.35.43:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2018.04.15-19.35.43:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2018.04.15-19.35.43:779][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2018.04.15-19.35.43:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2018.04.15-19.35.43:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2018.04.15-19.35.43:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2018.04.15-19.35.43:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2018.04.15-19.35.43:801][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2018.04.15-19.35.43:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2018.04.15-19.35.43:810][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2018.04.15-19.35.43:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2018.04.15-19.35.43:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2018.04.15-19.35.43:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2018.04.15-19.35.43:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2018.04.15-19.35.43:892][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2018.04.15-19.35.43:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap"
-[2018.04.15-19.35.43:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2018.04.15-19.35.43:913][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/StarterMap.umap"
-[2018.04.15-19.35.43:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2018.04.15-19.35.43:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2018.04.15-19.35.43:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2018.04.15-19.35.43:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2018.04.15-19.35.43:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2018.04.15-19.35.43:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2018.04.15-19.35.43:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2018.04.15-19.35.43:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2018.04.15-19.35.43:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2018.04.15-19.35.43:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2018.04.15-19.35.43:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2018.04.15-19.35.43:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2018.04.15-19.35.43:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2018.04.15-19.35.43:987][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2018.04.15-19.35.43:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2018.04.15-19.35.43:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2018.04.15-19.35.44:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2018.04.15-19.35.44:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2018.04.15-19.35.44:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Glass.uasset"
-[2018.04.15-19.35.44:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2018.04.15-19.35.44:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2018.04.15-19.35.44:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2018.04.15-19.35.44:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2018.04.15-19.35.44:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2018.04.15-19.35.44:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2018.04.15-19.35.44:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2018.04.15-19.35.44:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2018.04.15-19.35.44:047][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2018.04.15-19.35.44:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2018.04.15-19.35.44:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2018.04.15-19.35.44:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2018.04.15-19.35.44:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2018.04.15-19.35.44:068][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2018.04.15-19.35.44:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2018.04.15-19.35.44:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2018.04.15-19.35.44:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2018.04.15-19.35.44:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2018.04.15-19.35.44:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2018.04.15-19.35.44:094][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2018.04.15-19.35.44:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2018.04.15-19.35.44:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2018.04.15-19.35.44:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2018.04.15-19.35.44:111][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2018.04.15-19.35.44:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2018.04.15-19.35.44:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2018.04.15-19.35.44:125][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/P_Explosion.uasset"
-[2018.04.15-19.35.44:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/P_Fire.uasset"
-[2018.04.15-19.35.44:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/P_Smoke.uasset"
-[2018.04.15-19.35.44:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/P_Sparks.uasset"
-[2018.04.15-19.35.44:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2018.04.15-19.35.44:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2018.04.15-19.35.44:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2018.04.15-19.35.44:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2018.04.15-19.35.44:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2018.04.15-19.35.44:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2018.04.15-19.35.44:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2018.04.15-19.35.44:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2018.04.15-19.35.44:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2018.04.15-19.35.44:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2018.04.15-19.35.44:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2018.04.15-19.35.44:350][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/MaterialSphere.uasset"
-[2018.04.15-19.35.44:357][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_Bush.uasset"
-[2018.04.15-19.35.44:362][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_Chair.uasset"
-[2018.04.15-19.35.44:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2018.04.15-19.35.44:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_Couch.uasset"
-[2018.04.15-19.35.44:376][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_Door.uasset"
-[2018.04.15-19.35.44:380][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2018.04.15-19.35.44:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2018.04.15-19.35.44:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2018.04.15-19.35.44:396][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2018.04.15-19.35.44:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2018.04.15-19.35.44:407][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2018.04.15-19.35.44:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2018.04.15-19.35.44:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_Rock.uasset"
-[2018.04.15-19.35.44:420][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_Shelf.uasset"
-[2018.04.15-19.35.44:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_Stairs.uasset"
-[2018.04.15-19.35.44:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_Statue.uasset"
-[2018.04.15-19.35.44:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_TableRound.uasset"
-[2018.04.15-19.35.44:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2018.04.15-19.35.44:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2018.04.15-19.35.44:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2018.04.15-19.35.44:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2018.04.15-19.35.44:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2018.04.15-19.35.44:476][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2018.04.15-19.35.44:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2018.04.15-19.35.44:485][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2018.04.15-19.35.44:489][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2018.04.15-19.35.44:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2018.04.15-19.35.44:499][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2018.04.15-19.35.44:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2018.04.15-19.35.44:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2018.04.15-19.35.44:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2018.04.15-19.35.44:518][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2018.04.15-19.35.44:524][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2018.04.15-19.35.44:530][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2018.04.15-19.35.44:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2018.04.15-19.35.44:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2018.04.15-19.35.44:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2018.04.15-19.35.44:548][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2018.04.15-19.35.44:552][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2018.04.15-19.35.44:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2018.04.15-19.35.44:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2018.04.15-19.35.44:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2018.04.15-19.35.44:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2018.04.15-19.35.44:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2018.04.15-19.35.44:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2018.04.15-19.35.44:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2018.04.15-19.35.44:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2018.04.15-19.35.44:593][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2018.04.15-19.35.44:598][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2018.04.15-19.35.44:608][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2018.04.15-19.35.44:620][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2018.04.15-19.35.44:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2018.04.15-19.35.44:640][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2018.04.15-19.35.44:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2018.04.15-19.35.44:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2018.04.15-19.35.44:694][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2018.04.15-19.35.44:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2018.04.15-19.35.44:721][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2018.04.15-19.35.44:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2018.04.15-19.35.44:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2018.04.15-19.35.44:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2018.04.15-19.35.44:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2018.04.15-19.35.44:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2018.04.15-19.35.44:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2018.04.15-19.35.44:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2018.04.15-19.35.44:782][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2018.04.15-19.35.44:787][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2018.04.15-19.35.44:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2018.04.15-19.35.44:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2018.04.15-19.35.44:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2018.04.15-19.35.44:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2018.04.15-19.35.44:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2018.04.15-19.35.44:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2018.04.15-19.35.44:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2018.04.15-19.35.44:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2018.04.15-19.35.44:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2018.04.15-19.35.44:895][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2018.04.15-19.35.44:907][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2018.04.15-19.35.44:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2018.04.15-19.35.44:931][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2018.04.15-19.35.44:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2018.04.15-19.35.44:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2018.04.15-19.35.44:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2018.04.15-19.35.44:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2018.04.15-19.35.44:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2018.04.15-19.35.44:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2018.04.15-19.35.44:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2018.04.15-19.35.45:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2018.04.15-19.35.45:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Door_M.uasset"
-[2018.04.15-19.35.45:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Door_N.uasset"
-[2018.04.15-19.35.45:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2018.04.15-19.35.45:026][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2018.04.15-19.35.45:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2018.04.15-19.35.45:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2018.04.15-19.35.45:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2018.04.15-19.35.45:045][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2018.04.15-19.35.45:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2018.04.15-19.35.45:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2018.04.15-19.35.45:077][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2018.04.15-19.35.45:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2018.04.15-19.35.45:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2018.04.15-19.35.45:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2018.04.15-19.35.45:131][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2018.04.15-19.35.45:136][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2018.04.15-19.35.45:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2018.04.15-19.35.45:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2018.04.15-19.35.45:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2018.04.15-19.35.45:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2018.04.15-19.35.45:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2018.04.15-19.35.45:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2018.04.15-19.35.45:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2018.04.15-19.35.45:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2018.04.15-19.35.45:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2018.04.15-19.35.45:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2018.04.15-19.35.45:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2018.04.15-19.35.45:256][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2018.04.15-19.35.45:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2018.04.15-19.35.45:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2018.04.15-19.35.45:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2018.04.15-19.35.45:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2018.04.15-19.35.45:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2018.04.15-19.35.45:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2018.04.15-19.35.45:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2018.04.15-19.35.45:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2018.04.15-19.35.45:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2018.04.15-19.35.45:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2018.04.15-19.35.45:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2018.04.15-19.35.45:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2018.04.15-19.35.45:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2018.04.15-19.35.45:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2018.04.15-19.35.45:411][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2018.04.15-19.35.45:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2018.04.15-19.35.45:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2018.04.15-19.35.45:444][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2018.04.15-19.35.45:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2018.04.15-19.35.45:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2018.04.15-19.35.45:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2018.04.15-19.35.45:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2018.04.15-19.35.45:480][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2018.04.15-19.35.45:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2018.04.15-19.35.45:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2018.04.15-19.35.45:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Water_M.uasset"
-[2018.04.15-19.35.45:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Water_N.uasset"
-[2018.04.15-19.35.45:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2018.04.15-19.35.45:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2018.04.15-19.35.45:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2018.04.15-19.35.45:550][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2018.04.15-19.35.45:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2018.04.15-19.35.45:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2018.04.15-19.35.45:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2018.04.15-19.35.45:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2018.04.15-19.35.45:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Repos/BuildingEscape/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2018.04.15-19.35.45:706][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2018.04.15-19.35.45:823][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2018.04.15-19.35.45:918][  0]LogSavePackage: Save=27.44ms
-[2018.04.15-19.35.45:918][  0]LogSavePackage: Moving '../../../../../../Repos/BuildingEscape/Saved/Floor_400x4007C4CA81642644EA242724B86F9D5A3DB.tmp' to '../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2018.04.15-19.35.45:930][  0]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/BuildingEscape/Content/StarterContent/Architecture/Floor_400x400.uasset
-[2018.04.15-19.35.45:931][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2018.04.15-19.35.45:935][  0]Cmd: MAP LOAD FILE="../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.15-19.35.45:936][  0]LightingResults: New page: Lighting Build
-[2018.04.15-19.35.45:938][  0]MapCheck: New page: Map Check
-[2018.04.15-19.35.45:938][  0]LightingResults: New page: Lighting Build
-[2018.04.15-19.35.46:325][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2018.04.15-19.35.46:333][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.15-19.35.46:344][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.15-19.35.46:420][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.48ms to complete.
-[2018.04.15-19.35.46:420][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.485
-[2018.04.15-19.35.46:549][  0]LogCollectionManager: Loaded 0 collections in 0.001639 seconds
-[2018.04.15-19.35.46:905][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/BuildingEscape/Saved/Collections/' took 0.01s
-[2018.04.15-19.35.46:905][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/BuildingEscape/Content/Developers/Owner/Collections/' took 0.01s
-[2018.04.15-19.35.46:905][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/BuildingEscape/Content/Collections/' took 0.01s
-[2018.04.15-19.35.46:905][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.04.15-19.35.46:917][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2453 classes and 560 folders.
-[2018.04.15-19.35.46:925][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2018.04.15-19.35.47:004][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2018.04.15-19.35.47:010][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2018.04.15-19.35.47:089][  0]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.15-19.35.47:091][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.15-19.35.47:098][  0]LogSlate: Took 0.000374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.15-19.35.47:144][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.04.15-19.35.47:184][  0]LogSlate: Took 0.000329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.15-19.35.47:294][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2018.04.15-19.35.47:295][  0]LogLoad: (Engine Initialization) Total time: 74.88 seconds
-[2018.04.15-19.35.47:295][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.15-19.35.47:632][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.15-19.35.48:193][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.15-19.35.48:203][  1]LogAssetRegistry: Asset discovery search completed in 16.0363 seconds
-[2018.04.15-19.35.48:205][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.04.15-19.35.48:205][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
-[2018.04.15-19.59.01:495][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chair)
-[2018.04.15-19.59.08:914][334]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.04.15-19.59.08:916][334]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-19.59.09:209][334]LogSavePackage: Save=180.16ms
-[2018.04.15-19.59.09:209][334]LogSavePackage: Moving '../../../../../../Repos/BuildingEscape/Saved/Minimal_Default3859681647F8629F7BA4AA88539DAA64.tmp' to '../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.04.15-19.59.09:213][334]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.04.15-19.59.09:255][334]LogFileHelpers: Saving map 'Minimal_Default' took 0.331
-[2018.04.15-19.59.10:380][467]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-19.59.10:483][467]LogSavePackage: Save=82.11ms
-[2018.04.15-19.59.10:483][467]LogSavePackage: Moving '../../../../../../Repos/BuildingEscape/Saved/Minimal_DefaultF6EE0A6344E738BB49FC2A8D25228403.tmp' to '../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.04.15-19.59.10:487][467]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.04.15-19.59.10:498][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default_BuiltData" FILE="../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" SILENT=true
-[2018.04.15-19.59.10:585][467]LogSavePackage: Save=76.94ms
-[2018.04.15-19.59.10:585][467]LogSavePackage: Moving '../../../../../../Repos/BuildingEscape/Saved/Minimal_Default_BuiltData5FA3B21249721C86A9DA62A1B659F200.tmp' to '../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
-[2018.04.15-19.59.10:587][467]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
-[2018.04.15-19.59.18:440][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.15-19.59.18:629][ 63]Cmd: TRANSACTION UNDO
-[2018.04.15-19.59.18:629][ 63]LogEditorTransaction: Undo Clicking on Actors
-[2018.04.15-19.59.27:762][ 87]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.04.15-19.59.30:609][415]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-19.59.30:984][458]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-19.59.31:471][514]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-19.59.32:578][642]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-19.59.34:383][642]LogSlate: Window 'New Level' being destroyed
-[2018.04.15-19.59.34:418][642]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-19.59.37:414][642]LogSlate: Window 'Save Content' being destroyed
-[2018.04.15-19.59.37:424][642]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-19.59.37:598][642]LogSavePackage: Save=82.84ms
-[2018.04.15-19.59.37:598][642]LogSavePackage: Moving '../../../../../../Repos/BuildingEscape/Saved/Minimal_Default7FE5EB4A47FA0CD03F77D58F64C70AE6.tmp' to '../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap'
-[2018.04.15-19.59.37:602][642]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/BuildingEscape/Content/StarterContent/Maps/Minimal_Default.umap
-[2018.04.15-19.59.37:612][642]LogFileHelpers: Saving map 'Minimal_Default' took 0.185
-[2018.04.15-19.59.37:617][642]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.15-19.59.37:622][642]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-19.59.37:629][642]LightingResults: New page: Lighting Build
-[2018.04.15-19.59.37:630][642]LoadErrors: New page: Loading map: Template_Default.umap
-[2018.04.15-19.59.37:635][642]MapCheck: New page: Map Check
-[2018.04.15-19.59.37:635][642]LightingResults: New page: Lighting Build
-[2018.04.15-19.59.37:674][642]LogAIModule: Creating AISystem for world Untitled_1
-[2018.04.15-19.59.37:758][642]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.15-19.59.37:773][642]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.15-19.59.37:850][642]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.794ms to complete.
-[2018.04.15-19.59.37:850][642]LogFileHelpers: Loading map 'Template_Default' took 0.234
-[2018.04.15-19.59.39:013][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-19.59.54:672][241]LogSlate: Window 'Save Level As' being destroyed
-[2018.04.15-19.59.54:756][241]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-19.59.54:760][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Repos/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.04.15-19.59.54:800][241]LogSavePackage: Save=27.19ms
-[2018.04.15-19.59.54:800][241]LogSavePackage: Moving '../../../../../../Repos/BuildingEscape/Saved/NewMapE505FE3A4419E2A70538DE9BE6648EBA.tmp' to '../../../../../../Repos/BuildingEscape/Content/NewMap.umap'
-[2018.04.15-19.59.54:801][241]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/BuildingEscape/Content/NewMap.umap
-[2018.04.15-19.59.54:822][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Repos/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
-[2018.04.15-19.59.54:838][241]LogSavePackage: Save=14.18ms
-[2018.04.15-19.59.54:838][241]LogSavePackage: Moving '../../../../../../Repos/BuildingEscape/Saved/NewMap_BuiltData5D2388D144FF640137802A94B19998D6.tmp' to '../../../../../../Repos/BuildingEscape/Content/NewMap_BuiltData.uasset'
-[2018.04.15-19.59.54:840][241]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/BuildingEscape/Content/NewMap_BuiltData.uasset
-[2018.04.15-19.59.54:843][241]LogFileHelpers: Saving map 'NewMap' took 0.167
-[2018.04.15-19.59.55:723][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.00.10:369][115]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.BuildingEscape
-[2018.04.15-20.00.10:369][115]LogTemp: CWD: D:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.04.15-20.00.10:369][115]LogTemp: Initial Dir: D:\Program Files\Epic Games\UE_4.19
-[2018.04.15-20.00.10:369][115]LogTemp: Env CWD: D:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.04.15-20.00.10:369][115]LogTemp: BranchPath = HMD-PC/D/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = HMD-PC/D/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.04.15-20.00.10:369][115]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.04.15-20.00.10:435][115]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Owner\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.04.15-20.00.13:381][143]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
-[2018.04.15-20.00.20:951][918]LogSlate: Window 'Project Settings' being destroyed
-[2018.04.15-20.00.20:954][918]LogSlate: Window 'Project Settings' being destroyed
-[2018.04.15-20.00.24:895][996]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.15-20.00.24:909][996]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.15-20.00.24:923][996]PIE: New page: PIE session: NewMap (Apr 15, 2018, 8:00:24 AM)
-[2018.04.15-20.00.24:923][996]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2018.04.15-20.00.24:926][996]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002171s)
-[2018.04.15-20.00.24:926][996]LogAIModule: Creating AISystem for world NewMap
-[2018.04.15-20.00.24:926][996]LogPlayLevel: PIE: World Init took: (0.000692s)
-[2018.04.15-20.00.24:926][996]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003002s)
-[2018.04.15-20.00.24:952][996]LogInit: XAudio2 using 'SONY TV-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.15-20.00.24:961][996]LogInit: FAudioDevice initialized.
-[2018.04.15-20.00.25:019][996]LogLoad: Game class is 'GameModeBase'
-[2018.04.15-20.00.25:038][996]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.04.15-14.00.25
-[2018.04.15-20.00.25:039][996]LogWorld: Bringing up level for play took: 0.001281
-[2018.04.15-20.00.25:080][996]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
-[2018.04.15-20.00.25:081][996]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.643
-[2018.04.15-20.01.08:275][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.01.08:287][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Repos/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.04.15-20.01.08:329][361]LogSavePackage: Save=23.88ms
-[2018.04.15-20.01.08:329][361]LogSavePackage: Moving '../../../../../../Repos/BuildingEscape/Saved/NewMapB5FB7ACA47082F0FE1CA799CA5C5DC52.tmp' to '../../../../../../Repos/BuildingEscape/Content/NewMap.umap'
-[2018.04.15-20.01.08:331][361]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/BuildingEscape/Content/NewMap.umap
-[2018.04.15-20.01.08:353][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Repos/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
-[2018.04.15-20.01.08:384][361]LogSavePackage: Save=22.22ms
-[2018.04.15-20.01.08:384][361]LogSavePackage: Moving '../../../../../../Repos/BuildingEscape/Saved/NewMap_BuiltData4F7820B044A7B826EB8F39AC372A2D0A.tmp' to '../../../../../../Repos/BuildingEscape/Content/NewMap_BuiltData.uasset'
-[2018.04.15-20.01.08:385][361]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/BuildingEscape/Content/NewMap_BuiltData.uasset
-[2018.04.15-20.01.54:584][645]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-20.02.05:543][898]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/UI/LevelEditor/Viewports/ViewportControls/index.html
-[2018.04.15-20.02.09:952][919]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.15-20.02.45:038][492]Cmd: TRANSACTION UNDO
-[2018.04.15-20.02.45:038][492]LogEditorTransaction: Undo Move Actors
-[2018.04.15-20.02.46:259][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.02.57:151][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.03.09:056][226]LogActorFactory: Actor Factory created SM_Chair
-[2018.04.15-20.03.10:419][358]LogActorFactory: Actor Factory created SM_Chair
-[2018.04.15-20.03.15:151][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.03.23:693][763]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.15-20.03.23:970][789]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.04.15-20.03.26:013][  5]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.03.26:482][ 51]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.04.15-20.03.27:251][129]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.04.15-20.03.28:647][270]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.04.15-20.03.33:310][721]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.03.33:548][746]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.04.15-20.03.50:603][585]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.04.15-20.03.53:633][908]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.04.15-20.03.56:195][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.04.15-20.03.56:360][195]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.04.15-20.04.10:843][762]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.04.10:936][772]MapCheck: New page: Map Check
-[2018.04.15-20.04.10:950][772]Cmd: MAP REBUILD ALLVISIBLE
-[2018.04.15-20.04.10:950][772]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.04.15-20.04.11:069][772]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.04.15-20.04.11:124][772]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
-[2018.04.15-20.04.11:129][772]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.04.11:129][772]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.04.15-20.04.11:129][772]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
-[2018.04.15-20.04.11:135][772]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
-[2018.04.15-20.04.13:079][772]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.04.13:079][772]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.04.15-20.04.13:079][772]TextureStreamingBuild: Display: Compiling optional shaders took 2.016 seconds.
-[2018.04.15-20.04.13:110][772]LogLevel: Display: Export Material TexCoord Scales took 0.032 seconds.
-[2018.04.15-20.04.13:116][772]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
-[2018.04.15-20.04.13:125][772]LightingResults: New page: Lighting Build - Apr 15, 2018, 8:04:13 AM
-[2018.04.15-20.04.13:432][772]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.04.15-20.04.13:590][772]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.04.15-20.04.13:608][772]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.04.15-20.04.14:627][772]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.04.15-20.04.14:627][772]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14332
-[2018.04.15-20.04.17:413][772]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.04.15-20.04.17:413][772]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.04.15-20.04.17:413][772]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.04.15-20.04.17:413][772]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.04.15-20.04.17:413][772]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.04.15-20.04.17:413][772]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.04.15-20.04.17:599][772]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.04.15-20.04.17:599][772]MapCheck: New page: NewMap - Apr 15, 2018, 8:04:17 AM
-[2018.04.15-20.04.17:599][772]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
-[2018.04.15-20.04.17:700][772]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 101.232ms to complete.
-[2018.04.15-20.04.17:723][772]LogEditorBuildUtils: Build time 0:06
-[2018.04.15-20.04.17:744][772]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-20.04.17:767][772]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
-[2018.04.15-20.04.17:776][772]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
-[2018.04.15-20.04.17:872][772]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.04.17:872][772]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.04.17:943][774]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
-[2018.04.15-20.04.17:949][774]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.04.17:949][774]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
-[2018.04.15-20.04.17:970][775]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.04.20:799][785]Job is a success!
-[2018.04.15-20.04.21:175][786]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
-[2018.04.15-20.04.21:175][786]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.04.15-20.04.21:175][786]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
-[2018.04.15-20.04.21:175][786]LogVolumetricLightmapImport:      Bricks at Level
-[2018.04.15-20.04.21:175][786]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
-[2018.04.15-20.04.21:175][786]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
-[2018.04.15-20.04.21:175][786]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
-[2018.04.15-20.04.21:276][786]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
-[2018.04.15-20.04.21:277][786]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
-[2018.04.15-20.04.21:277][786]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.04.15-20.04.21:277][786]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.04.15-20.04.21:277][786]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2018.04.15-20.04.21:277][786]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 256X128)
-[2018.04.15-20.04.21:302][786]Lightmass on HMD-PC: 1.71 sec total, 151 ms importing, 19 ms setup, 676 ms photons, 826 ms processing, 0 ms extra exporting [3/3 mappings]. Threads: 8.60 sec total, 327 ms processing.
-[2018.04.15-20.04.21:328][786]LogStaticLightingSystem: Illumination: 7.86 sec (52 ms encoding lightmaps, 11 ms encoding shadowmaps)
-[2018.04.15-20.04.21:328][786]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.04.15-20.04.21:328][786]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.04.15-20.04.21:419][786]DumpUnbuiltLightIteractions
-[2018.04.15-20.04.21:419][786]Lights with unbuilt interactions: 0
-[2018.04.15-20.04.21:419][786]
-[2018.04.15-20.04.21:419][786]Primitives with unbuilt interactions: 0
-[2018.04.15-20.04.21:473][787]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.04.15-20.04.21:474][787]MapCheck: New page: NewMap - Apr 15, 2018, 8:04:21 AM
-[2018.04.15-20.04.21:552][787]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.525ms to complete.
-[2018.04.15-20.04.23:986][866]LogSlate: Window 'Message Log' being destroyed
-[2018.04.15-20.04.23:990][866]LogSlate: Window 'Message Log' being destroyed
-[2018.04.15-20.04.27:572][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.04.35:561][936]LogActorFactory: Actor Factory created SM_TableRound
-[2018.04.15-20.04.39:179][332]LogActorFactory: Actor Factory created SM_TableRound
-[2018.04.15-20.04.41:249][555]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
-[2018.04.15-20.04.41:357][555]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-20.04.42:392][632]LogActorFactory: Actor Factory created SM_Bush
-[2018.04.15-20.04.42:925][682]LogActorFactory: Actor Factory created SM_Bush
-[2018.04.15-20.04.45:022][877]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.15-20.04.45:877][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush)
-[2018.04.15-20.04.59:029][323]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.15-20.05.02:256][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.05.02:437][681]LogActorFactory: Actor Factory created SM_Couch
-[2018.04.15-20.05.05:750][ 27]LogActorFactory: Actor Factory created SM_Couch
-[2018.04.15-20.05.19:048][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush)
-[2018.04.15-20.05.23:452][ 15]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Bush)
-[2018.04.15-20.05.23:484][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-20.05.30:079][532]Cmd: DUPLICATE
-[2018.04.15-20.05.30:079][532]Cmd: ACTOR DUPLICATE
-[2018.04.15-20.05.35:992][172]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.04.15-20.05.37:720][317]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush)
-[2018.04.15-20.05.39:829][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bush2)
-[2018.04.15-20.05.47:403][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.05.47:483][370]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.15-20.05.47:498][370]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.15-20.05.47:498][370]PIE: New page: PIE session: NewMap (Apr 15, 2018, 8:05:47 AM)
-[2018.04.15-20.05.47:498][370]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
-[2018.04.15-20.05.47:501][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002706s)
-[2018.04.15-20.05.47:502][370]LogAIModule: Creating AISystem for world NewMap
-[2018.04.15-20.05.47:502][370]LogPlayLevel: PIE: World Init took: (0.001063s)
-[2018.04.15-20.05.47:502][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003962s)
-[2018.04.15-20.05.47:528][370]LogInit: XAudio2 using 'SONY TV-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.15-20.05.47:537][370]LogInit: FAudioDevice initialized.
-[2018.04.15-20.05.47:571][370]LogLoad: Game class is 'GameModeBase'
-[2018.04.15-20.05.47:573][370]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.04.15-14.05.47
-[2018.04.15-20.05.47:573][370]LogWorld: Bringing up level for play took: 0.000902
-[2018.04.15-20.05.47:574][370]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.149
-[2018.04.15-20.06.01:180][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.06.01:265][982]MapCheck: New page: Map Check
-[2018.04.15-20.06.01:274][982]Cmd: MAP REBUILD ALLVISIBLE
-[2018.04.15-20.06.01:274][982]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.04.15-20.06.01:358][982]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.04.15-20.06.01:365][982]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
-[2018.04.15-20.06.01:370][982]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.04.15-20.06.01:370][982]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
-[2018.04.15-20.06.01:375][982]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.06.01:375][982]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.04.15-20.06.01:375][982]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
-[2018.04.15-20.06.01:381][982]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
-[2018.04.15-20.06.01:387][982]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bush, compiling. 
-[2018.04.15-20.06.02:075][982]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.06.02:075][982]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.04.15-20.06.02:075][982]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.04.15-20.06.02:075][982]TextureStreamingBuild: Display: Compiling optional shaders took 0.721 seconds.
-[2018.04.15-20.06.02:086][982]LogLevel: Display: Export Material TexCoord Scales took 0.011 seconds.
-[2018.04.15-20.06.02:092][982]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
-[2018.04.15-20.06.02:101][982]LightingResults: New page: Lighting Build - Apr 15, 2018, 8:06:02 AM
-[2018.04.15-20.06.02:110][982]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.04.15-20.06.02:115][982]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.04.15-20.06.02:115][982]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.04.15-20.06.02:116][982]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.04.15-20.06.02:116][982]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14332
-[2018.04.15-20.06.06:643][982]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.04.15-20.06.06:643][982]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.04.15-20.06.06:643][982]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.04.15-20.06.06:643][982]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.04.15-20.06.06:643][982]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.04.15-20.06.06:643][982]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.04.15-20.06.06:781][982]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.04.15-20.06.06:781][982]MapCheck: New page: NewMap - Apr 15, 2018, 8:06:06 AM
-[2018.04.15-20.06.06:782][982]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
-[2018.04.15-20.06.06:856][982]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 75.059ms to complete.
-[2018.04.15-20.06.06:879][982]LogEditorBuildUtils: Build time 0:05
-[2018.04.15-20.06.06:909][982]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
-[2018.04.15-20.06.06:914][982]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.06.06:914][982]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
-[2018.04.15-20.06.06:977][982]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.06.06:991][983]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
-[2018.04.15-20.06.06:997][983]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.06.06:997][983]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
-[2018.04.15-20.06.07:003][983]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.06.07:004][983]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
-[2018.04.15-20.06.07:022][983]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.04.15-20.06.09:924][996]Job is a success!
-[2018.04.15-20.06.10:289][997]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
-[2018.04.15-20.06.10:289][997]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.04.15-20.06.10:289][997]LogVolumetricLightmapImport:      BrickData 30x5x5 = 0.0Mb
-[2018.04.15-20.06.10:289][997]LogVolumetricLightmapImport:      Bricks at Level
-[2018.04.15-20.06.10:289][997]LogVolumetricLightmapImport:          0: 16.7% covering 100.0% of volume
-[2018.04.15-20.06.10:289][997]LogVolumetricLightmapImport:          1: 16.7% covering 1.6% of volume
-[2018.04.15-20.06.10:289][997]LogVolumetricLightmapImport:          2: 66.7% covering 0.1% of volume
-[2018.04.15-20.06.10:389][997]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2018.04.15-20.06.10:389][997]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2018.04.15-20.06.10:389][997]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2018.04.15-20.06.10:389][997]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2018.04.15-20.06.10:389][997]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
-[2018.04.15-20.06.10:389][997]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 512X128)
-[2018.04.15-20.06.10:410][997]Lightmass on HMD-PC: 2.03 sec total, 153 ms importing, 26 ms setup, 675 ms photons, 1.13 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 12.0 sec total, 1.33 sec processing.
-[2018.04.15-20.06.10:415][997]LogStaticLightingSystem: Illumination: 7.98 sec (67 ms encoding lightmaps, 20 ms encoding shadowmaps)
-[2018.04.15-20.06.10:415][997]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.04.15-20.06.10:415][997]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.04.15-20.06.10:647][997]DumpUnbuiltLightIteractions
-[2018.04.15-20.06.10:647][997]Lights with unbuilt interactions: 0
-[2018.04.15-20.06.10:647][997]
-[2018.04.15-20.06.10:647][997]Primitives with unbuilt interactions: 0
-[2018.04.15-20.06.10:710][998]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.04.15-20.06.10:710][998]MapCheck: New page: NewMap - Apr 15, 2018, 8:06:10 AM
-[2018.04.15-20.06.10:786][998]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 75.203ms to complete.
-[2018.04.15-20.06.39:754][247]LogSlate: Window 'Message Log' being destroyed
-[2018.04.15-20.06.39:758][247]LogSlate: Window 'Message Log' being destroyed
-[2018.04.15-20.06.40:903][373]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.04.15-20.06.40:906][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Repos/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.04.15-20.06.40:953][373]LogSavePackage: Save=28.07ms
-[2018.04.15-20.06.40:953][373]LogSavePackage: Moving '../../../../../../Repos/BuildingEscape/Saved/NewMap8DA3760949355E8C4EF90FB34AD36B64.tmp' to '../../../../../../Repos/BuildingEscape/Content/NewMap.umap'
-[2018.04.15-20.06.40:957][373]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/BuildingEscape/Content/NewMap.umap
-[2018.04.15-20.06.40:977][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Repos/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
-[2018.04.15-20.06.41:008][373]LogSavePackage: Save=22.31ms
-[2018.04.15-20.06.41:008][373]LogSavePackage: Moving '../../../../../../Repos/BuildingEscape/Saved/NewMap_BuiltData09E123FC42BAF58C409CC79B90CB2C9D.tmp' to '../../../../../../Repos/BuildingEscape/Content/NewMap_BuiltData.uasset'
-[2018.04.15-20.06.41:012][373]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/BuildingEscape/Content/NewMap_BuiltData.uasset
-[2018.04.15-20.06.42:197][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.04.15-20.06.42:362][523]LogSlate: Window 'BuildingEscape - Unreal Editor' being destroyed
-[2018.04.15-20.06.42:363][523]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.15-20.06.42:613][524]Cmd: QUIT_EDITOR
-[2018.04.15-20.06.42:768][524]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2018.04.15-20.06.42:769][524]LogExit: Preparing to exit.
-[2018.04.15-20.06.43:065][524]LogDirectoryWatcher: A directory notification for 'D:/Repos/BuildingEscape/Content/' was aborted.
-[2018.04.15-20.06.43:084][524]LogExit: Editor shut down
-[2018.04.15-20.06.43:089][524]LogExit: Transaction tracking system shut down
-[2018.04.15-20.06.43:237][524]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.04.15-20.06.43:237][524]LogDirectoryWatcher: A directory notification for '../../../../../../Repos/BuildingEscape/Content/' was aborted.
-[2018.04.15-20.06.43:237][524]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
-[2018.04.15-20.06.43:237][524]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
-[2018.04.15-20.06.43:237][524]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.04.15-20.06.43:237][524]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.04.15-20.06.43:237][524]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.04.15-20.06.43:237][524]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.04.15-20.06.43:289][524]LogExit: Object subsystem successfully closed.
-[2018.04.15-20.06.43:308][524]LogShaderCompilers: Display: Shaders left to compile 0
-[2018.04.15-20.06.43:310][524]LogD3D11RHI: Shutdown
-[2018.04.15-20.06.43:310][524]LogD3D11RHI: CleanupD3DDevice
-[2018.04.15-20.06.43:314][524]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.04.15-20.06.43:328][524]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (584)
-[2018.04.15-20.06.43:328][524]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (582)
-[2018.04.15-20.06.43:328][524]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (580)
-[2018.04.15-20.06.43:328][524]LogModuleManager: Shutting down and abandoning module NewLevelDialog (578)
-[2018.04.15-20.06.43:328][524]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
-[2018.04.15-20.06.43:328][524]LogModuleManager: Shutting down and abandoning module SceneOutliner (574)
-[2018.04.15-20.06.43:328][524]LogModuleManager: Shutting down and abandoning module AddContentDialog (572)
-[2018.04.15-20.06.43:328][524]LogDirectoryWatcher: A directory notification for 'D:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
-[2018.04.15-20.06.43:329][524]LogModuleManager: Shutting down and abandoning module WidgetCarousel (571)
-[2018.04.15-20.06.43:329][524]LogModuleManager: Shutting down and abandoning module EditorWidgets (568)
-[2018.04.15-20.06.43:329][524]LogModuleManager: Shutting down and abandoning module CollectionManager (566)
-[2018.04.15-20.06.43:329][524]LogDirectoryWatcher: A directory notification for 'D:/Repos/BuildingEscape/Content/Collections/' was aborted.
-[2018.04.15-20.06.43:329][524]LogDirectoryWatcher: A directory notification for 'D:/Repos/BuildingEscape/Content/Developers/Owner/Collections/' was aborted.
-[2018.04.15-20.06.43:330][524]LogDirectoryWatcher: A directory notification for 'D:/Repos/BuildingEscape/Saved/Collections/' was aborted.
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module StatsViewer (564)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module FoliageEdit (562)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module LandscapeEditor (560)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module MeshPaintMode (558)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (556)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module ActorPickerMode (554)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module GeometryMode (552)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module TextureAlignMode (550)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module BspMode (548)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (546)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module HardwareSurvey (544)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (542)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module AutomationWorker (540)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (538)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module SequenceRecorder (537)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (534)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (532)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module PlacementMode (531)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (526)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (524)
-[2018.04.15-20.06.43:330][524]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (522)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (520)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (518)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (516)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (514)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (512)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (510)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (508)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module CharacterAI (506)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module SmartSnapping (504)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module SessionServices (502)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module ViewportSnapping (500)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module ViewportInteraction (498)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module ClothPainter (496)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (495)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module LogVisualizer (492)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module IntroTutorials (490)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (489)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (486)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (484)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (482)
-[2018.04.15-20.06.43:331][524]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (481)
-[2018.04.15-20.06.43:637][524]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (478)
-[2018.04.15-20.06.43:637][524]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (476)
-[2018.04.15-20.06.43:637][524]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (474)
-[2018.04.15-20.06.43:637][524]LogModuleManager: Shutting down and abandoning module InputBindingEditor (472)
-[2018.04.15-20.06.43:637][524]LogModuleManager: Shutting down and abandoning module MergeActors (470)
-[2018.04.15-20.06.43:637][524]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (468)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module LocalizationService (467)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module HardwareTargeting (464)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (462)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module UndoHistory (460)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module XmlParser (458)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module Blutility (456)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (454)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (453)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (450)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module SettingsEditor (448)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module ProjectLauncher (446)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module SessionFrontend (444)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module ProfilerClient (442)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module DeviceManager (440)
-[2018.04.15-20.06.43:638][524]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (439)
-[2018.04.15-20.06.43:693][524]LogModuleManager: Shutting down and abandoning module AutomationController (436)
-[2018.04.15-20.06.43:693][524]LogModuleManager: Shutting down and abandoning module AutomationWindow (434)
-[2018.04.15-20.06.43:693][524]LogModuleManager: Shutting down and abandoning module Layers (432)
-[2018.04.15-20.06.43:693][524]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (430)
-[2018.04.15-20.06.43:693][524]LogModuleManager: Shutting down and abandoning module DetailCustomizations (428)
-[2018.04.15-20.06.43:693][524]LogModuleManager: Shutting down and abandoning module PackagesDialog (426)
-[2018.04.15-20.06.43:693][524]LogModuleManager: Shutting down and abandoning module Persona (424)
-[2018.04.15-20.06.43:693][524]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (423)
-[2018.04.15-20.06.43:693][524]LogModuleManager: Shutting down and abandoning module AnimGraph (421)
-[2018.04.15-20.06.43:693][524]LogModuleManager: Shutting down and abandoning module Kismet (418)
-[2018.04.15-20.06.43:693][524]LogModuleManager: Shutting down and abandoning module GraphEditor (416)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module ClassViewer (414)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module Toolbox (412)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module ModuleUI (410)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module MovieSceneTools (408)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module OutputLog (406)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module GammaUI (404)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module Documentation (402)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (400)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module MovieScene (398)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (396)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module LauncherPlatform (394)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module AnalyticsET (392)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module PortalServices (390)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module PortalRpc (388)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module MessagingRpc (386)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module AIModule (384)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module GameplayDebugger (383)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module AITestSuite (381)
-[2018.04.15-20.06.43:694][524]LogModuleManager: Shutting down and abandoning module ProfilerService (378)
-[2018.04.15-20.06.43:737][524]LogModuleManager: Shutting down and abandoning module TaskGraph (376)
-[2018.04.15-20.06.43:737][524]LogModuleManager: Shutting down and abandoning module SteamVRController (374)
-[2018.04.15-20.06.43:737][524]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (372)
-[2018.04.15-20.06.43:737][524]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (370)
-[2018.04.15-20.06.43:737][524]LogModuleManager: Shutting down and abandoning module OculusInput (368)
-[2018.04.15-20.06.43:737][524]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (366)
-[2018.04.15-20.06.43:738][524]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (364)
-[2018.04.15-20.06.43:738][524]LogModuleManager: Shutting down and abandoning module CableComponent (362)
-[2018.04.15-20.06.43:738][524]LogModuleManager: Shutting down and abandoning module AudioCapture (360)
-[2018.04.15-20.06.43:738][524]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (358)
-[2018.04.15-20.06.43:738][524]LogModuleManager: Shutting down and abandoning module AndroidPermission (356)
-[2018.04.15-20.06.43:738][524]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (352)
-[2018.04.15-20.06.43:738][524]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (350)
-[2018.04.15-20.06.43:738][524]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (348)
-[2018.04.15-20.06.43:738][524]LogModuleManager: Shutting down and abandoning module MediaCompositing (346)
-[2018.04.15-20.06.43:738][524]LogModuleManager: Shutting down and abandoning module LinearTimecode (344)
-[2018.04.15-20.06.43:738][524]LogModuleManager: Shutting down and abandoning module ImgMedia (342)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module HTML5Networking (340)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module AlembicImporter (338)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module AlembicLibrary (337)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module GeometryCache (336)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (335)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module DatasmithContent (330)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (328)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module PluginBrowser (326)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (324)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (322)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module CryptoKeys (320)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (318)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (316)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module UObjectPlugin (314)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (312)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (310)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module GitSourceControl (308)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module SourceControl (307)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (304)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (302)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (300)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (298)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module Paper2DEditor (296)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module MeshPaint (295)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module BuildingEscape (292)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (290)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (288)
-[2018.04.15-20.06.43:741][524]LogModuleManager: Shutting down and abandoning module PhysXVehicles (286)
-[2018.04.15-20.06.43:742][524]LogModuleManager: Shutting down and abandoning module OculusEditor (284)
-[2018.04.15-20.06.43:742][524]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (282)
-[2018.04.15-20.06.43:742][524]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (280)
-[2018.04.15-20.06.43:742][524]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (278)
-[2018.04.15-20.06.43:742][524]LogModuleManager: Shutting down and abandoning module ActorSequence (276)
-[2018.04.15-20.06.43:742][524]LogModuleManager: Shutting down and abandoning module UdpMessaging (274)
-[2018.04.15-20.06.43:843][524]LogModuleManager: Shutting down and abandoning module TcpMessaging (272)
-[2018.04.15-20.06.43:944][524]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (270)
-[2018.04.15-20.06.43:944][524]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (268)
-[2018.04.15-20.06.43:944][524]LogModuleManager: Shutting down and abandoning module FacialAnimation (266)
-[2018.04.15-20.06.43:944][524]LogModuleManager: Shutting down and abandoning module DataValidation (264)
-[2018.04.15-20.06.43:944][524]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (262)
-[2018.04.15-20.06.43:944][524]LogModuleManager: Shutting down and abandoning module LevelEditor (261)
-[2018.04.15-20.06.43:945][524]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (260)
-[2018.04.15-20.06.43:945][524]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (258)
-[2018.04.15-20.06.43:945][524]LogModuleManager: Shutting down and abandoning module MainFrame (256)
-[2018.04.15-20.06.43:945][524]LogModuleManager: Shutting down and abandoning module HotReload (255)
-[2018.04.15-20.06.43:945][524]LogDirectoryWatcher: A directory notification for 'D:/Repos/BuildingEscape/Binaries/Win64' was aborted.
-[2018.04.15-20.06.43:945][524]LogModuleManager: Shutting down and abandoning module ContentBrowser (251)
-[2018.04.15-20.06.43:946][524]LogModuleManager: Shutting down and abandoning module TreeMap (249)
-[2018.04.15-20.06.43:946][524]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (246)
-[2018.04.15-20.06.43:947][524]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (244)
-[2018.04.15-20.06.43:947][524]LogModuleManager: Shutting down and abandoning module LiveLink (242)
-[2018.04.15-20.06.44:760][524]LogModuleManager: Shutting down and abandoning module Paper2D (240)
-[2018.04.15-20.06.44:760][524]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (238)
-[2018.04.15-20.06.44:760][524]LogModuleManager: Shutting down and abandoning module WmfMedia (236)
-[2018.04.15-20.06.44:762][524]LogModuleManager: Shutting down and abandoning module Media (235)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module PacketHandler (232)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (230)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (228)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module MediaAssets (226)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module Overlay (224)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module OverlayEditor (223)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module VREditor (220)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module StringTableEditor (218)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (216)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (214)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module FunctionalTesting (212)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (210)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (209)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module UMG (206)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module UMGEditor (205)
-[2018.04.15-20.06.44:768][524]LogModuleManager: Shutting down and abandoning module Sequencer (204)
-[2018.04.15-20.06.44:769][524]LogModuleManager: Shutting down and abandoning module MessageLog (201)
-[2018.04.15-20.06.44:769][524]LogModuleManager: Shutting down and abandoning module SlateReflector (196)
-[2018.04.15-20.06.44:769][524]LogModuleManager: Shutting down and abandoning module Slate (194)
-[2018.04.15-20.06.44:769][524]LogModuleManager: Shutting down and abandoning module EditorStyle (192)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module MRMesh (190)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (188)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (186)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module XAudio2 (184)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module Networking (182)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module Core (180)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module LevelSequence (178)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module KismetCompiler (176)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module MeshUtilities (174)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (173)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (172)
-[2018.04.15-20.06.44:770][524]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (171)
-[2018.04.15-20.06.44:771][524]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (169)
-[2018.04.15-20.06.44:771][524]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
-[2018.04.15-20.06.44:771][524]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
-[2018.04.15-20.06.44:771][524]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (159)
-[2018.04.15-20.06.44:772][524]LogModuleManager: Shutting down and abandoning module DerivedDataCache (156)
-[2018.04.15-20.06.44:845][524]LogDerivedDataCache: Shutdown
-[2018.04.15-20.06.44:845][524]LogModuleManager: Shutting down and abandoning module XGEController (154)
-[2018.04.15-20.06.44:845][524]LogXGEController: Cleaning working directory: C:/Users/Owner/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module TargetPlatform (152)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (151)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (149)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (147)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (145)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (143)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (141)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (139)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (137)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (135)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (133)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module ImageWrapper (132)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (129)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (127)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (125)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (123)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (121)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (119)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (115)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (113)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module Messaging (111)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (109)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (107)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (103)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (101)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (99)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (97)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (95)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
-[2018.04.15-20.06.44:846][524]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module InputCore (68)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module Settings (66)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module SteamVR (62)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module AppleARKit (56)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module XMPP (45)
-[2018.04.15-20.06.44:847][524]LogModuleManager: Shutting down and abandoning module HTTP (43)
-[2018.04.15-20.06.44:847][524]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.04.15-20.06.44:847][524]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA19F4967-41B4-EB33-61DE-BC97F3FDDA5D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.1-3989454%2B%2B%2BUE4%2BRelease-4.19&UserID=f99e7663412af195a12c52b1328bbe3a%7Cf6d8471872c34f6eb39501850d891a6a%7Cbe7ee071-5ecd-4414-93ba-fbcf8bf60319&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.04.15-20.06.44:870][524]LogModuleManager: Shutting down and abandoning module SSL (42)
-[2018.04.15-20.06.44:871][524]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
-[2018.04.15-20.06.44:872][524]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.04.15-20.06.44:872][524]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.04.15-20.06.44:872][524]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.04.15-20.06.44:872][524]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.04.15-20.06.44:872][524]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.04.15-20.06.44:872][524]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.04.15-20.06.44:872][524]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.04.15-20.06.44:873][524]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.04.15-20.06.44:873][524]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.04.15-20.06.44:873][524]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.04.15-20.06.44:873][524]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.04.15-20.06.44:873][524]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.04.15-20.06.44:873][524]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.04.15-20.06.44:873][524]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.04.15-20.06.44:873][524]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.04.15-20.06.44:873][524]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.04.15-20.06.44:873][524]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.04.15-20.06.44:873][524]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.04.15-20.06.44:881][524]LogExit: Exiting.
-[2018.04.15-20.06.44:895][524]Log file closed, 04/15/18 14:06:44
+[2018.04.15-21.57.08:178][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.15-21.57.08:178][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.15-21.57.08:197][  0]LogInit: Computer: HMD-PC
+[2018.04.15-21.57.08:197][  0]LogInit: User: Owner
+[2018.04.15-21.57.08:197][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.04.15-21.57.08:197][  0]LogInit: High frequency timer resolution =3.224480 MHz
+[2018.04.15-21.57.08:197][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.15-21.57.08:197][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.15-21.57.08:197][  0]LogMemory: Process Physical Memory: 273.98 MB used, 273.98 MB peak
+[2018.04.15-21.57.08:197][  0]LogMemory: Process Virtual Memory: 271.51 MB used, 271.51 MB peak
+[2018.04.15-21.57.08:197][  0]LogMemory: Physical Memory: 5825.38 MB used,  10498.44 MB free, 16323.81 MB total
+[2018.04.15-21.57.08:198][  0]LogMemory: Virtual Memory: 718.30 MB used,  10498.44 MB free, 134217728.00 MB total
+[2018.04.15-21.57.08:219][  0]LogInit: Using OS detected language (en-US).
+[2018.04.15-21.57.08:219][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.15-21.57.08:224][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.15-21.57.08:692][  0]LogStreaming: Display: Took  0.472s to EndInitTextLocalization.
+[2018.04.15-21.57.08:692][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.15-21.57.08:732][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.04.15-21.57.08:732][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.04.15-21.57.09:076][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.15-21.57.09:134][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 680' (Feature Level 11_0)
+[2018.04.15-21.57.09:134][  0]LogD3D11RHI:       4063/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.15-21.57.09:187][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 680' (Feature Level 11_0)
+[2018.04.15-21.57.09:187][  0]LogD3D11RHI:       4063/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.15-21.57.09:190][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.15-21.57.09:190][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.15-21.57.09:190][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.15-21.57.09:197][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.15-21.57.09:197][  0]LogD3D11RHI:     GPU DeviceId: 0x1180 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.15-21.57.09:197][  0]LogWindows: EnumDisplayDevices:
+[2018.04.15-21.57.09:197][  0]LogWindows:    0. 'NVIDIA GeForce GTX 680' (P:1 D:1)
+[2018.04.15-21.57.09:197][  0]LogWindows:    1. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2018.04.15-21.57.09:198][  0]LogWindows:    2. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2018.04.15-21.57.09:198][  0]LogWindows:    3. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2018.04.15-21.57.09:198][  0]LogWindows:    4. 'NVIDIA GeForce GTX 680' (P:0 D:1)
+[2018.04.15-21.57.09:198][  0]LogWindows:    5. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2018.04.15-21.57.09:198][  0]LogWindows:    6. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2018.04.15-21.57.09:198][  0]LogWindows:    7. 'NVIDIA GeForce GTX 680' (P:0 D:0)
+[2018.04.15-21.57.09:198][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.15-21.57.09:198][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 680
+[2018.04.15-21.57.09:198][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.15-21.57.09:198][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.15-21.57.09:198][  0]LogRHI: Texture pool is 2844 MB (70% of 4063 MB)
+[2018.04.15-21.57.09:237][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize
+[2018.04.15-21.57.09:237][  0]LogD3D11RHI: [Aftermath] Aftermath enabled and primed
+[2018.04.15-21.57.09:237][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.15-21.57.09:253][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.04.15-21.57.09:302][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Repos/Building-Escape/BuildingEscape/Intermediate/Shaders/WorkingDirectory/14764/).
+[2018.04.15-21.57.09:302][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/5FFDB0F04156761FCC9F38B9A03C94E6/'.
+[2018.04.15-21.57.09:579][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.15-21.57.09:594][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.15-21.57.09:610][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.15-21.57.09:630][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.15-21.57.09:645][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.15-21.57.09:660][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.15-21.57.09:676][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.15-21.57.09:691][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.15-21.57.09:699][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.15-21.57.09:712][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.15-21.57.09:726][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.15-21.57.09:740][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.15-21.57.09:754][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.04.15-21.57.09:767][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.15-21.57.09:781][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.15-21.57.09:808][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.15-21.57.09:808][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.15-21.57.09:822][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.15-21.57.09:823][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.15-21.57.09:862][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.15-21.57.09:875][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.15-21.57.09:889][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.15-21.57.09:903][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.15-21.57.09:917][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.15-21.57.09:932][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.15-21.57.09:932][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.15-21.57.10:080][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.04.15-21.57.10:080][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.04.15-21.57.10:080][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.15-21.57.10:889][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.15-21.57.10:969][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/Owner/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.15-21.57.10:969][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.04.15-21.57.10:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Repos/Building-Escape/BuildingEscape/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.15-21.57.10:970][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.15-21.57.10:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Repos/Building-Escape/BuildingEscape/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.15-21.57.10:970][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.15-21.57.10:988][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.15-21.57.11:000][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.15-21.57.11:014][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.15-21.57.11:014][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.15-21.57.11:016][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.15-21.57.11:016][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.15-21.57.11:180][  0]LogAssetRegistry: FAssetRegistry took 0.0270 seconds to start up
+[2018.04.15-21.57.11:578][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.15-21.57.11:754][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.15-21.57.11:757][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.15-21.57.11:757][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.15-21.57.11:757][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.15-21.57.11:757][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.15-21.57.11:757][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.15-21.57.11:800][  0]LogNetVersion: BuildingEscape , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4285820645)
+[2018.04.15-21.57.12:321][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.108025 seconds
+[2018.04.15-21.57.12:328][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.04.15-21.57.12:328][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.04.15-21.57.12:328][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.15-21.57.14:272][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.15-21.57.14:311][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.15-21.57.14:825][  0]SourceControl: Source control is disabled
+[2018.04.15-21.57.14:825][  0]SourceControl: Source control is disabled
+[2018.04.15-21.57.14:852][  0]SourceControl: Source control is disabled
+[2018.04.15-21.57.14:880][  0]SourceControl: Source control is disabled
+[2018.04.15-21.57.15:555][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.15-21.57.15:839][  0]LogOcInput: OculusInput pre-init called
+[2018.04.15-21.57.15:978][  0]LogEngine: Initializing Engine...
+[2018.04.15-21.57.21:189][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2018.04.15-21.57.21:191][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.15-21.57.21:191][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.15-21.57.21:443][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.15-21.57.21:485][  0]LogInit: XAudio2 using 'SONY TV-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.15-21.57.21:515][  0]LogInit: FAudioDevice initialized.
+[2018.04.15-21.57.21:608][  0]LogDerivedDataCache: Saved boot cache 0.09s 74MB C:/Users/Owner/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.04.15-21.57.21:627][  0]LogInit: Texture streaming: Enabled
+[2018.04.15-21.57.21:646][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.15-21.57.21:664][  0]LogInit: Transaction tracking system initialized
+[2018.04.15-21.57.21:690][  0]BlueprintLog: New page: Editor Load
+[2018.04.15-21.57.21:768][  0]LocalizationService: Localization service is disabled
+[2018.04.15-21.57.21:893][  0]LogConsoleResponse: Display: 
+[2018.04.15-21.57.22:052][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.15-21.57.22:053][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.15-21.57.22:053][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.15-21.57.22:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.15-21.57.22:053][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.15-21.57.22:274][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/Building-Escape/BuildingEscape/Content/' took 0.02s
+[2018.04.15-21.57.22:587][  0]SourceControl: Source control is disabled
+[2018.04.15-21.57.22:587][  0]Cmd: MAP LOAD FILE="../../../../../../Repos/Building-Escape/BuildingEscape/Content/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.15-21.57.22:588][  0]LightingResults: New page: Lighting Build
+[2018.04.15-21.57.22:590][  0]MapCheck: New page: Map Check
+[2018.04.15-21.57.22:590][  0]LightingResults: New page: Lighting Build
+[2018.04.15-21.57.22:882][  0]LogAIModule: Creating AISystem for world NewMap
+[2018.04.15-21.57.22:888][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.15-21.57.22:901][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.15-21.57.22:972][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.57ms to complete.
+[2018.04.15-21.57.22:972][  0]LogFileHelpers: Loading map 'NewMap' took 0.385
+[2018.04.15-21.57.23:116][  0]LogCollectionManager: Loaded 0 collections in 0.002179 seconds
+[2018.04.15-21.57.23:160][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/Building-Escape/BuildingEscape/Saved/Collections/' took 0.01s
+[2018.04.15-21.57.23:160][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/Building-Escape/BuildingEscape/Content/Developers/Owner/Collections/' took 0.01s
+[2018.04.15-21.57.23:160][  0]LogFileCache: Scanning file cache for directory 'D:/Repos/Building-Escape/BuildingEscape/Content/Collections/' took 0.01s
+[2018.04.15-21.57.23:160][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.15-21.57.23:172][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2453 classes and 560 folders.
+[2018.04.15-21.57.23:180][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.04.15-21.57.23:254][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.04.15-21.57.23:260][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.04.15-21.57.23:342][  0]LogSlate: Took 0.000418 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.15-21.57.23:345][  0]LogSlate: Took 0.000338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.15-21.57.23:355][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.15-21.57.23:473][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.15-21.57.23:519][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.15-21.57.23:643][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2018.04.15-21.57.23:643][  0]LogLoad: (Engine Initialization) Total time: 20.28 seconds
+[2018.04.15-21.57.23:643][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.15-21.57.24:003][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.15-21.57.24:329][  1]LogAssetRegistry: Asset discovery search completed in 13.1722 seconds
+[2018.04.15-21.57.24:331][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.15-21.57.24:332][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2018.04.15-21.58.13:180][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.15-21.58.13:246][ 60]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.15-21.58.13:265][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.15-21.58.13:265][ 60]PIE: New page: PIE session: NewMap (Apr 15, 2018, 9:58:13 AM)
+[2018.04.15-21.58.13:265][ 60]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2018.04.15-21.58.13:269][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003528s)
+[2018.04.15-21.58.13:269][ 60]LogAIModule: Creating AISystem for world NewMap
+[2018.04.15-21.58.13:270][ 60]LogPlayLevel: PIE: World Init took: (0.000860s)
+[2018.04.15-21.58.13:270][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.004548s)
+[2018.04.15-21.58.13:295][ 60]LogInit: XAudio2 using 'SONY TV-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.15-21.58.13:303][ 60]LogInit: FAudioDevice initialized.
+[2018.04.15-21.58.13:347][ 60]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/BuildingEscape.BuildingEscapeGameMode'
+[2018.04.15-21.58.13:347][ 60]LogLoad: Game class is 'GameModeBase'
+[2018.04.15-21.58.13:349][ 60]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.04.15-15.58.13
+[2018.04.15-21.58.13:349][ 60]LogWorld: Bringing up level for play took: 0.000942
+[2018.04.15-21.58.13:354][ 60]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2018.04.15-21.58.13:354][ 60]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.369
+[2018.04.15-21.58.32:936][319]Cmd: POLY SELECT ADJACENT WALLS
+[2018.04.15-21.58.43:111][459]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.04.15-21.58.43:371][481]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.15-21.58.51:616][399]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2018.04.15-21.58.52:054][436]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2018.04.15-21.58.54:752][733]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.15-21.58.56:862][965]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.04.15-21.58.57:301][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
+[2018.04.15-21.58.57:767][ 59]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.15-21.59.13:843][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.15-21.59.14:019][783]LogActorFactory: Actor Factory created SM_Rock
+[2018.04.15-21.59.14:885][868]LogActorFactory: Actor Factory created SM_Rock
+[2018.04.15-21.59.19:518][351]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.15-21.59.19:601][360]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.15-21.59.19:620][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.15-21.59.19:620][360]PIE: New page: PIE session: NewMap (Apr 15, 2018, 9:59:19 AM)
+[2018.04.15-21.59.19:620][360]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_NewMap
+[2018.04.15-21.59.19:623][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002448s)
+[2018.04.15-21.59.19:623][360]LogAIModule: Creating AISystem for world NewMap
+[2018.04.15-21.59.19:623][360]LogPlayLevel: PIE: World Init took: (0.000822s)
+[2018.04.15-21.59.19:623][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/NewMap.NewMap to /Game/UEDPIE_0_NewMap.NewMap (0.003423s)
+[2018.04.15-21.59.19:650][360]LogInit: XAudio2 using 'SONY TV-4 (2- NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.15-21.59.19:658][360]LogInit: FAudioDevice initialized.
+[2018.04.15-21.59.19:691][360]LogLoad: Game class is 'GameModeBase'
+[2018.04.15-21.59.19:693][360]LogWorld: Bringing World /Game/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2018.04.15-15.59.19
+[2018.04.15-21.59.19:693][360]LogWorld: Bringing up level for play took: 0.000941
+[2018.04.15-21.59.19:694][360]PIE: Play in editor start time for /Game/UEDPIE_0_NewMap -0.029
+[2018.04.15-21.59.34:947][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.04.15-21.59.35:029][ 77]MapCheck: New page: Map Check
+[2018.04.15-21.59.35:044][ 77]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.15-21.59.35:044][ 77]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.15-21.59.35:142][ 77]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.04.15-21.59.35:151][ 77]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultMaterial, compiling. 
+[2018.04.15-21.59.35:156][ 77]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.04.15-21.59.35:156][ 77]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2018.04.15-21.59.35:162][ 77]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2018.04.15-21.59.35:168][ 77]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
+[2018.04.15-21.59.35:174][ 77]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Bush, compiling. 
+[2018.04.15-21.59.35:180][ 77]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rock, compiling. 
+[2018.04.15-21.59.36:714][ 77]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.04.15-21.59.36:714][ 77]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.04.15-21.59.36:714][ 77]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.04.15-21.59.36:714][ 77]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.04.15-21.59.36:714][ 77]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.15-21.59.36:714][ 77]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.04.15-21.59.36:714][ 77]TextureStreamingBuild: Display: Compiling optional shaders took 1.579 seconds.
+[2018.04.15-21.59.36:725][ 77]LogLevel: Display: Export Material TexCoord Scales took 0.011 seconds.
+[2018.04.15-21.59.36:730][ 77]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2018.04.15-21.59.36:741][ 77]LightingResults: New page: Lighting Build - Apr 15, 2018, 9:59:36 AM
+[2018.04.15-21.59.36:861][ 77]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.15-21.59.37:006][ 77]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.15-21.59.37:020][ 77]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.15-21.59.37:533][ 77]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.15-21.59.37:533][ 77]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14764
+[2018.04.15-21.59.40:610][ 77]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.04.15-21.59.40:610][ 77]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.15-21.59.40:610][ 77]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.15-21.59.40:610][ 77]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.15-21.59.40:610][ 77]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.15-21.59.40:610][ 77]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.15-21.59.40:758][ 77]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.04.15-21.59.40:758][ 77]MapCheck: New page: NewMap - Apr 15, 2018, 9:59:40 AM
+[2018.04.15-21.59.40:758][ 77]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2018.04.15-21.59.40:835][ 77]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 76.826ms to complete.
+[2018.04.15-21.59.40:858][ 77]LogEditorBuildUtils: Build time 0:05
+[2018.04.15-21.59.40:972][ 78]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock, compiling. 
+[2018.04.15-21.59.40:979][ 78]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock, compiling. 
+[2018.04.15-21.59.40:996][ 78]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.15-21.59.40:996][ 78]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.04.15-21.59.44:015][ 88]Job is a success!
+[2018.04.15-21.59.44:356][ 89]LogSlate: Took 0.000425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.04.15-21.59.44:394][ 89]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2018.04.15-21.59.44:394][ 89]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.04.15-21.59.44:394][ 89]LogVolumetricLightmapImport:      BrickData 40x5x5 = 0.0Mb
+[2018.04.15-21.59.44:394][ 89]LogVolumetricLightmapImport:      Bricks at Level
+[2018.04.15-21.59.44:394][ 89]LogVolumetricLightmapImport:          0: 12.5% covering 100.0% of volume
+[2018.04.15-21.59.44:394][ 89]LogVolumetricLightmapImport:          1: 12.5% covering 1.6% of volume
+[2018.04.15-21.59.44:394][ 89]LogVolumetricLightmapImport:          2: 75.0% covering 0.1% of volume
+[2018.04.15-21.59.44:503][ 89]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.04.15-21.59.44:503][ 89]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.04.15-21.59.44:503][ 89]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.04.15-21.59.44:503][ 89]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.04.15-21.59.44:503][ 89]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.04.15-21.59.44:503][ 89]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 512X128)
+[2018.04.15-21.59.44:533][ 89]Lightmass on HMD-PC: 2.06 sec total, 206 ms importing, 28 ms setup, 680 ms photons, 1.11 sec processing, 0 ms extra exporting [8/8 mappings]. Threads: 11.7 sec total, 1.64 sec processing.
+[2018.04.15-21.59.44:551][ 89]LogStaticLightingSystem: Illumination: 7.47 sec (74 ms encoding lightmaps, 17 ms encoding shadowmaps)
+[2018.04.15-21.59.44:551][ 89]LogStaticLightingSystem: Lightmap texture memory:  0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.04.15-21.59.44:551][ 89]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.04.15-21.59.44:614][ 89]DumpUnbuiltLightIteractions
+[2018.04.15-21.59.44:614][ 89]Lights with unbuilt interactions: 0
+[2018.04.15-21.59.44:614][ 89]
+[2018.04.15-21.59.44:614][ 89]Primitives with unbuilt interactions: 0
+[2018.04.15-21.59.44:675][ 90]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.15-21.59.44:675][ 90]MapCheck: New page: NewMap - Apr 15, 2018, 9:59:44 AM
+[2018.04.15-21.59.44:753][ 90]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.932ms to complete.
+[2018.04.15-21.59.48:541][383]LogSlate: Window 'Message Log' being destroyed
+[2018.04.15-21.59.48:544][383]LogSlate: Window 'Message Log' being destroyed
+[2018.04.15-22.00.23:744][199]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.04.15-22.00.23:748][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap" FILE="../../../../../../Repos/Building-Escape/BuildingEscape/Content/NewMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.15-22.00.23:798][199]LogSavePackage: Save=30.23ms
+[2018.04.15-22.00.23:798][199]LogSavePackage: Moving '../../../../../../Repos/Building-Escape/BuildingEscape/Saved/NewMap64AF94054E23B7615C099BB4C1509768.tmp' to '../../../../../../Repos/Building-Escape/BuildingEscape/Content/NewMap.umap'
+[2018.04.15-22.00.23:804][199]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/Building-Escape/BuildingEscape/Content/NewMap.umap
+[2018.04.15-22.00.23:834][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NewMap_BuiltData" FILE="../../../../../../Repos/Building-Escape/BuildingEscape/Content/NewMap_BuiltData.uasset" SILENT=true
+[2018.04.15-22.00.23:868][199]LogSavePackage: Save=23.87ms
+[2018.04.15-22.00.23:868][199]LogSavePackage: Moving '../../../../../../Repos/Building-Escape/BuildingEscape/Saved/NewMap_BuiltData60F1F1D3497ADA81DAF4E0922E207763.tmp' to '../../../../../../Repos/Building-Escape/BuildingEscape/Content/NewMap_BuiltData.uasset'
+[2018.04.15-22.00.23:873][199]LogSavePackage: Display: Finished SavePackage ../../../../../../Repos/Building-Escape/BuildingEscape/Content/NewMap_BuiltData.uasset
