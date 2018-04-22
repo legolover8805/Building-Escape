@@ -7,10 +7,10 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
-"D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscape.cpp.obj"
-"D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscapeGameModeBase.cpp.obj"
-"D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscape.init.gen.cpp.obj"
-"D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscapeGameModeBase.gen.cpp.obj"
+"D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscape.cpp.obj"
+"D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscapeGameModeBase.cpp.obj"
+"D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscape.init.gen.cpp.obj"
+"D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\BuildingEscapeGameModeBase.gen.cpp.obj"
 "D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\BuildingEscape\PCLaunch.rc.res"
 "D:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
-/OUT:"D:\Repos\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib"
+/OUT:"D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib"

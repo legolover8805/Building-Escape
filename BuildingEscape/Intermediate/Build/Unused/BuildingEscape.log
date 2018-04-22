@@ -1,0 +1,16 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for BuildingEscapeEditor (no existing makefile)
+  Performing full C++ include scan (no include cache file)
+  Parsing headers for BuildingEscapeEditor
+    Running UnrealHeaderTool "D:\Repos\Building-Escape\BuildingEscape\BuildingEscape.uproject" "D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\BuildingEscapeEditor\Development\BuildingEscapeEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BuildingEscapeEditor in 10.4297002 seconds
+  Deleting old hot reload file: "D:\Repos\Building-Escape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3151.dll".
+  Deleting old hot reload file: "D:\Repos\Building-Escape\BuildingEscape\Binaries\Win64\UE4Editor-BuildingEscape-3151.pdb".
+  Performing 3 actions (9 in parallel)
+  BuildingEscape.init.gen.cpp
+  [2/3] Link UE4Editor-BuildingEscape.dll
+  [3/3] Link UE4Editor-BuildingEscape.lib
+     Creating library D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.lib and object D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.exp
+     Creating library D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.lib and object D:\Repos\Building-Escape\BuildingEscape\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-BuildingEscape.suppressed.exp
+  Deploying BuildingEscapeEditor Win64 Development...
+  Total build time: 171.65 seconds (Local executor: 67.65 seconds)
